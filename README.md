@@ -178,9 +178,7 @@ Access Grafana by navigating to [http://your-ec2-instance-ip:3000](http://your-e
 🔍 Step 17: Check for errors
 
 * Use the Explore tab in Grafana to check for errors in logs.
-    
-    ![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/b5f7814d-e5e6-4097-958b-049a399a3d59)
-    
+     
 
 ## 🎨 Step 18: Create Final dashboard
 
