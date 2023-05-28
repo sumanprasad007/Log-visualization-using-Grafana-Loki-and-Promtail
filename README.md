@@ -204,4 +204,5 @@ In conclusion, Grafana, Loki, and Promtail are powerful tools for monitoring and
 
 **🔗** [**github.com/sumanprasad007**](http://github.com/sumanprasad007)
 
-[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685213035326/bd57902e-a38e-475d-a507-50644ea705dd.png align="center")](https://github.com/sumanprasad007)
+![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/b6460c9f-5eb2-44c4-b66b-7bce2d214b82)
+
