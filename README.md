@@ -7,6 +7,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685212210671/14fe903
 tags: aws, web-development, developer, devops, beginners
 
 ---
+![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/bbec4fd1-060d-4ac3-8857-241f6775e9d0)
 
 # **📍** Introduction:
 
@@ -65,7 +66,7 @@ Before we begin, we need to set up an EC2 instance and connect to it. Once conne
 
 Access Grafana by navigating to [http://your-ec2-instance-ip:3000](http://your-ec2-instance-ip:3000)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212659746/169bfa9e-5e1e-42ec-935f-48557a59e2ca.png align="center")
+![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/1f3c22cf-5776-4f57-90de-322583a6aa81)
 
 🚀 Step 2: Install Docker
 
@@ -94,7 +95,7 @@ Access Grafana by navigating to [http://your-ec2-instance-ip:3000](http://your-e
 
 * Run Loki with Docker: **docker run -d --name loki -v $(pwd):/mnt/config -p 3100:3100 grafana/loki:2.8.0 --config.file=/mnt/config/loki-config.yaml**
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212702750/848d5d20-7309-4ad3-8bb8-b575ab8f3db6.png align="center")
+  ![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/82ce5915-9d53-4632-9086-85c623994813)
     
 
 🚀 Step 6: Enable port 3100
@@ -107,7 +108,7 @@ Access Grafana by navigating to [http://your-ec2-instance-ip:3000](http://your-e
 * Test Loki by accessing: [http://your-ec2-instance-ip:3100/metrics](http://your-ec2-instance-ip:3100/metrics)
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212708720/98be6d3e-08a1-4cc1-9f78-7d6d94130370.png align="center")
+![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/28e186d1-656f-4f24-9744-a5b5ab87e256)
 
 🚀 Step 8: Run Promtail
 
@@ -122,7 +123,7 @@ Access Grafana by navigating to [http://your-ec2-instance-ip:3000](http://your-e
     
 * Enter the Loki URL ([http://your-ec2-instance-ip:3100](http://your-ec2-instance-ip:3100)) and save the configuration.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212801684/46de95ee-5abf-48fa-aea0-9fa83d9fa822.png align="center")
+![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/3b92f891-3e52-468b-b34e-4511650e4574)
     
 
 🔍 Step 10: Explore logs
@@ -140,7 +141,7 @@ Access Grafana by navigating to [http://your-ec2-instance-ip:3000](http://your-e
     
 * Example: **{job="varlogs", app="nginx"} |~ "error"**
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212843122/472eae6e-7984-48b0-ae8f-fcbe4f9a4435.png align="center")
+  ![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/101309d5-956d-4fab-aff5-b8cc5b4bc3d9)
     
 
 🚀 Step 12: Show Grafana logs
@@ -164,21 +165,21 @@ Access Grafana by navigating to [http://your-ec2-instance-ip:3000](http://your-e
 
 * Install and configure Nginx to plot graphs using its data.
     
-* ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212855133/7669de42-7bf4-41f9-a816-996aa77d9e14.png align="center")
+* ![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/b1f30756-d3c8-49cc-bee9-002f48367358)
     
 
 ### 📊 Step 16: Show Nginx data visuals
 
 * Choose the data source (Loki default or another), job (varlogs), contains (nginx), and run queries to show visualizations.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212888879/33aac490-8e24-4ead-94ba-2a0b616f67b0.png align="center")
+   ![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/f79e37ef-fc26-43e8-ae47-e4a17e52ceab)
     
 
 🔍 Step 17: Check for errors
 
 * Use the Explore tab in Grafana to check for errors in logs.
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212923638/ae5fc49d-b692-43b1-890b-1c3d25c12409.png align="center")
+    ![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/b5f7814d-e5e6-4097-958b-049a399a3d59)
     
 
 ## 🎨 Step 18: Create Final dashboard
@@ -186,11 +187,11 @@ Access Grafana by navigating to [http://your-ec2-instance-ip:3000](http://your-e
 * Create a final dashboard for Nginx errors and system logs using Grafana, Loki, and Promtail.
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212959637/91aff0f1-4f67-4c50-84da-45b8e4b71a89.png align="center")
+![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/bb66b63a-0346-499b-9b32-ed442f0f4e7f)
 
 🎉 Assignment task: To show the Docker logs in Grafana, use the following command to restart the Docker container:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685212972807/e23d46ce-00fb-4a48-91e5-00336cfab086.png align="center")
+![image](https://github.com/sumanprasad007/Log-visualization-using-Grafana-Loki-and-Promtail/assets/55047333/c3bb58b7-2864-435a-a405-f227f901776e)
 
 * **docker restart docker-container-id**
     
